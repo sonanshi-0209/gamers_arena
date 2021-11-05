@@ -64,7 +64,7 @@ html {
 }
 
 .background {
-	background: rgba(0, 0, 0, 0.7) url("../img/bg.jpg");
+	background: rgba(0, 0, 0, 0.7) url("../img/background.png");
 	background-size: cover;
 	background-blend-mode: darken;
 }
@@ -153,6 +153,7 @@ html {
 
 .sectionTag {
 	padding: 16px 0;
+	text-align: center;
 }
 
 .sectionSubTag {
@@ -167,14 +168,16 @@ html {
 }
 
 .contact {
-	background-color: #f6f5f4;
+	background-color: darkgrey;
 	height: 833px;
+	
 }
 .text-center {
 	text-align: center;
 	padding-top: 30px;
 	font-family: "Ubuntu", sans-serif;
 	font-size: 35px;
+	
 }
 
 .form {
