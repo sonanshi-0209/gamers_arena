@@ -4,6 +4,15 @@
 	padding: 0;
 }
 
+.heading
+{
+	background-color: black;
+	font-size: 50px;
+	color: white;
+	
+	font-family: cursive;
+}
+
 html {
 	scroll-behavior: smooth;
 }
