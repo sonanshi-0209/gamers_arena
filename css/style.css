@@ -276,6 +276,12 @@ a:visited {
 	padding-top: 30px;
 	font-family: "Ubuntu", sans-serif;
 	font-size: 22px;
+	display:flex;
+	justify-content: space-around;
+}
+
+.newtext li{
+	list-style: none;
 }
 
 .nav-list-new {
@@ -301,4 +307,15 @@ a:visited {
 .nav-list-new li a:hover {
 	color: rgb(197, 194, 194);
 	text-align: center;
+}
+
+.myimg
+{
+	display: flex;
+	justify-content:space-around;
+
+}
+.myimg li
+{
+	list-style: none;
 }
