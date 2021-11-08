@@ -165,23 +165,33 @@ html {
 	margin: auto;
 	font-family: "Ubuntu", sans-serif;
 	padding: 10px;
+	background-color: black;
+	color: white;
 }
 
 .section-left {
 	flex-direction: row-reverse;
+	background-color: black;
+	color: white;
 }
 
 .paras {
 	padding: 0px 65px;
+	background-color: black;
+	color: white;
 }
 
 .sectionTag {
-	padding: 16px 0;
+	padding: 0 0;
 	text-align: center;
+	background-color: black;
+	color: white;
 }
 
 .sectionSubTag {
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	background-color: black;
+	color: white;
 }
 
 .thumbnail img {
@@ -194,6 +204,9 @@ html {
 .contact {
 	background-color: darkgrey;
 	height: 833px;
+	background-color: black;
+	color:white;
+	line-height: 7em;
 	
 }
 .text-center {
@@ -201,6 +214,8 @@ html {
 	padding-top: 30px;
 	font-family: "Ubuntu", sans-serif;
 	font-size: 35px;
+	background-color: black;
+	color:white;
 	
 }
 
@@ -278,6 +293,8 @@ a:visited {
 	font-size: 22px;
 	display:flex;
 	justify-content: space-around;
+	background-color: black;
+	color:white;
 }
 
 .newtext li{
@@ -313,6 +330,9 @@ a:visited {
 {
 	display: flex;
 	justify-content:space-around;
+	background-color: black;
+	color:white;
+	
 
 }
 .myimg li
