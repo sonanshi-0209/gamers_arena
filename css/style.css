@@ -11,6 +11,21 @@
 	color: white;
 	
 	font-family: cursive;
+	animation-name: animate 6s linear infinite;
+	
+}
+@keyframes animate 
+{
+
+	0%,10%,100%
+	{
+		width:0;
+	}
+	70%,90%
+	{
+		top:100%;
+	}
+	
 }
 
 html {
@@ -200,23 +215,33 @@ html {
 	margin: auto;
 	font-family: "Ubuntu", sans-serif;
 	padding: 10px;
+	background-color: black;
+	color: white;
 }
 
 .section-left {
 	flex-direction: row-reverse;
+	background-color: black;
+	color: white;
 }
 
 .paras {
 	padding: 0px 65px;
+	background-color: black;
+	color: white;
 }
 
 .sectionTag {
 	padding: 16px 0;
 	text-align: center;
+	background-color: black;
+	color: white;
 }
 
 .sectionSubTag {
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	background-color: black;
+	color: white;
 }
 
 .thumbnail img {
@@ -229,6 +254,9 @@ html {
 .contact {
 	background-color: darkgrey;
 	height: 833px;
+	background-color: black;
+	color:white;
+	line-height: 7em;
 	
 }
 .text-center {
@@ -236,6 +264,8 @@ html {
 	padding-top: 30px;
 	font-family: "Ubuntu", sans-serif;
 	font-size: 35px;
+	background-color: black;
+	color:white;
 	
 }
 
@@ -315,4 +345,51 @@ a:visited {
 	padding-top: 30px;
 	font-family: "Ubuntu", sans-serif;
 	font-size: 22px;
+	display:flex;
+	justify-content: space-around;
+	background-color: black;
+	color:white;
+}
+
+.newtext li{
+	list-style: none;
+}
+
+.nav-list-new {
+	width: 70%;
+	display: flex;
+	align-items: center;
+}
+
+.nav-list-new li {
+	list-style: none;
+	padding: 26px 30px;
+	text-align: center;
+}
+
+.nav-list-new li a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: "Ubuntu", sans-serif;
+	text-align: center;
+}
+
+.nav-list-new li a:hover {
+	color: rgb(197, 194, 194);
+	text-align: center;
+}
+
+.myimg
+{
+	display: flex;
+	justify-content:space-around;
+	background-color: black;
+	color:white;
+	
+
+}
+.myimg li
+{
+	list-style: none;
 }
